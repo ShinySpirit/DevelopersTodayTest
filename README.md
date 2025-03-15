@@ -1,6 +1,6 @@
 To run this application you have to do next steps:
 
-  1. Enter folder "backend" and run "npm install"
+  1. Run "npm install"
   2. You need postgres database running, application coud connect to. If you have Docker installed, you can open command prompt and pass there next command, replacing necessary values like POSTGRES_PASSWORD with your own:
     docker run --name postgres-container -e POSTGRES_DB=postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=567890 -p 5432:5432 -d postgres
   3. Edit .env file in folder "backend" if you want: 
@@ -10,7 +10,7 @@ To run this application you have to do next steps:
     DB_HOST - Postgress host (ip-address or localhost for same machine)
     DB_PORT - Postgress port
 
-  3. Enter the "backend" directory with command prompt and run command "npm run start:prod", if you made all correct, application will be avaliable on port 3000 of your IP-adress (or localhost, from same machine).
+  3. Run command "npm run start:prod", if you made all correct, application will be avaliable on port 3000 of your IP-adress (or localhost, from same machine).
 
   Endpoints: 
     
